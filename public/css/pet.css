@@ -1,0 +1,117 @@
+/* ------ Layout geral ------ */
+.pet-wrapper {
+    width: 100%;
+    padding-top: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* ------ Filtros ------ */
+.filter-bar {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-bottom: 40px;
+}
+
+.filter {
+    padding: 10px 24px;
+    border-radius: 30px;
+    border: 2px solid #ddd;
+    background: white;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.filter.active {
+    background: #4a90ff;
+    color: white;
+    border-color: #4a90ff;
+}
+
+/* ------ Conteúdo ------ */
+.pet-content {
+    width: 90%;
+    max-width: 1250px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 330px 1fr 1fr;
+    gap: 40px;
+}
+
+/* ------ Foto ------ */
+.pet-photo-box {
+    border-radius: 20px;
+    border: 3px solid #e0e0e0;
+    padding: 10px;
+}
+
+.pet-photo {
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+/* ------ Informações ------ */
+.pet-info {
+    padding-top: 10px;
+}
+
+.pet-name {
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.pet-details p {
+    font-size: 20px;
+    margin: 6px 0;
+}
+
+/* ------ Botão Adotar ------ */
+.btn-adotar {
+    margin-top: 25px;
+    background: #ff8359;
+    color: white;
+    padding: 16px 34px;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+}
+
+/* ------ Descrição ------ */
+.pet-description h2 {
+    font-size: 42px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.pet-description p {
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 500px;
+}
+
+/* ------ Footer ------ */
+.footer {
+    border-top: 2px solid #ddd;
+    padding: 20px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer p {
+    margin: 3px 0;
+    font-size: 16px;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 18px;
+    font-size: 24px;
+}
