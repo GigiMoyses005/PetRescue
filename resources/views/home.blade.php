@@ -99,7 +99,7 @@
 <section class="hero" style="position:relative; display:inline-block; width:100%;">
     <img src="{{ asset('images/BannerHome.png') }}" alt="Banner Home" style="width:100%; height:auto; display:block;">
 
-    <a href="#" style="
+    <a href="{{ route('/sobre') }}" style="
         position:absolute;
         left:150px;
         top:77%;

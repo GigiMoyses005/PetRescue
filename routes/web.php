@@ -30,6 +30,8 @@ Route::get('/login', function () {
     return redirect()->route('adotante.login');
 })->name('login');
 
+Rouute::get('admin/register',[AdminController::class,'showRegister'])->name('admin.register');
+Route::post('admin/register',[AdminController::class,'register'])->name('admin.register.post');
 Route::get('admin/login',[AdminController::class,'showLogin'])->name('admin.login');
 Route::post('admin/login',[AdminController::class,'login'])->name('admin.login.post');
 
